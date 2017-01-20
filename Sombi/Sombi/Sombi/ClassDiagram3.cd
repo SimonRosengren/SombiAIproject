@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Sombi.Animation" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAQAAAAEQgAgAAIAIAAAACA=</HashCode>
+      <FileName>Animation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.BloodStain" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAgAAAAAAAIAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BloodStain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.Camera" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAIAAAAAIAAAAQAQAAEAAAAAA=</HashCode>
+      <FileName>Camera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.FloatingTextures" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAEAAggQAQJAAAAAAAAAAEACAAAAAAABAAAA=</HashCode>
+      <FileName>FloatingTextures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.Game1" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAEEAAAAAAAwAAAAAAAAAAAAAAAAgAAAAAAAAAAAQ=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.GlobalValues" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAACAAAAAAAAAAAEAAAAAAIAABAAAAAAEAAA=</HashCode>
+      <FileName>Library\GlobalValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.SoundLibrary" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAACAAAAAAAIAAAAAAAIAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Library\SoundLibrary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.TextureLibrary" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEABBCBAAAxBJC4IMCAQEQgAAQggAIAAQAAAJADAQ=</HashCode>
+      <FileName>Library\TextureLibrary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.BulletManager" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIAAggAAAAAAAAAAAAAAAAQACAAAAAAAAAA=</HashCode>
+      <FileName>Manager\BulletManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.EnemyManager" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiQAAAAAAAABAgAAAAAAAACAAAAAAAAQAgAAAAgAAAA=</HashCode>
+      <FileName>Manager\EnemyManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.FPSManager" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAQAAAgAAAAgAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Manager\FPSManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.GameManager" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYwgAACAhAFEgABAEAAAAA0AAIAACAIkwAAQAAEEAA=</HashCode>
+      <FileName>Manager\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.HighscoreManager" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAAAAAgAAAAAAIAAAAIIAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Manager\HighscoreManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.HUDManager" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAEAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Manager\HUDManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.MenuManager" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAABIAAAAxAgAAAAAEgAAACAAAAAIAAAASCAAAg=</HashCode>
+      <FileName>Manager\MenuManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.PackageManager" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAEAhAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Manager\PackageManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.PlayerManager" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAQggAAQAIAEggAAAAIQAAAAAAAAAAAAIAAAAAAAEAA=</HashCode>
+      <FileName>Manager\PlayerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.SoundManager" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEAAACAAAAAAAAAAAAAAAgAAAAAAAACQAAAAAAAAAA=</HashCode>
+      <FileName>Manager\SoundManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.WeaponManager" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAgACAEEgAAABAAAAAAEAAACAAAAAAQAAAAEAA=</HashCode>
+      <FileName>Manager\WeaponManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.Grid" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAJABAAAAAAAAAgAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Map\Grid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.Tile" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAQAAAAAAAAgAAAIAAAAAAAAQEAAAAAAAAAAA=</HashCode>
+      <FileName>Map\Tile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.Menu" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAgAAAAIAAAAAAAAAABAAAAAAAgA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.GameObject" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.MovingObject" Collapsed="true">
+    <Position X="1.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\MovingObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.Package" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAIAABAAAAAA=</HashCode>
+      <FileName>Objects\Package.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.Player" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAYAEAFgAAAEojAEBAAUIARAAAABBAAKAgYAwAFAAIg=</HashCode>
+      <FileName>Objects\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.Zombie" Collapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAkAAAAAhAIgAAAAAAgIAAAQAgCAAAAwRAAACAAAo=</HashCode>
+      <FileName>Objects\Zombie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.Program" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.Bullet" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAQAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapon\Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.Explosives" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapon\Explosives.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.Projectile" Collapsed="true">
+    <Position X="1.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAIAAAAggAAQAAAAAgAAACAAAAABAUAAABAAAI=</HashCode>
+      <FileName>Weapon\Projectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.Rifle" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAQAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapon\Rifle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.Rocket" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAQAAAAgAAQAAAAIwAAAAgIAAgAAAAAAAEAAA=</HashCode>
+      <FileName>Weapon\Rocket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.Shotgun" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAQAAEABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapon\Shotgun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sombi.Weapon" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAIAiBAAAAAAAAAAAACBQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapon\Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Sombi.AnimationPlayer" Collapsed="true">
+    <Position X="7.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAgACAAMAAAABgAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>AnimationPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="Sombi.GameState" Collapsed="true">
+    <Position X="7.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAYAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Manager\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sombi.PlayerID" Collapsed="true">
+    <Position X="9.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAIA=</HashCode>
+      <FileName>Objects\Player.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,5 @@
+Projektet i sin simpelhet är ett shoot’em up-spel med pixelart, som spelas med handkontroller. Målet med spelet är att ta sig genom en metropol för att ta sig från punkt A till punkt B för att  hämta ett objekt för att sedan ta sig tillbaka till punkt A. 
+Utmaningen ligger i ett stort antal zombies som gör det annars simpla uppdraget till en blodig kamp. Det kommer att spelas samtidigt av två personer som är ute efter att ta tillbaka objekt B. När man har hämtat hem B, kan man välja om man vill avsluta spelomgången, eller hämta ett nytt objekt, dock svårare för varje gång man väljer att ge sig ut igen, men med större belöning. Man kan även välja att hämta flera objekt, men varje gång du plockar upp ett ökar svårighetsgraden.
+Känslan i spelet ska vara en grå postapokalyptisk miljö sett i top down, som efterhand kommer att färgas rött från blodet av de zombier man lämnar döda efter sig.
+Spelet kommer spelas med xbox-kontroll, och innehålla ett uppgraderingssystem för de vapen man kommer använda. 
+
