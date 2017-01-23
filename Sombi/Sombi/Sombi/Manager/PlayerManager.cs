@@ -14,17 +14,19 @@ namespace Sombi
         public Player player2;
         public List<Player> players;
         public WeaponManager weaponManager;
+        public List<IntelligentZombie> zombies;
 
         Camera camera;
         KeyboardState currentKeyboard;
         KeyboardState oldKeyboard;
 
-        public PlayerManager(Camera camera)
+        public PlayerManager(Camera camera, List<IntelligentZombie> zombies)
         {
             weaponManager = new WeaponManager();
             players = new List<Player>();
             this.camera = camera;
             CreatePlayers();
+            this.zombies = zombies;
         }
 
         public bool GameOver()
@@ -55,6 +57,13 @@ namespace Sombi
             if (player1.FireWeapon() && !player1.dead)
             {
                 weaponManager.CreateBullets(1, player1.pos, player1.angle, player1.explosivesLevel);
+                foreach (IntelligentZombie z in zombies)
+                {
+                    if (Vector2.Distance(z.getCenterPos(), player1.pos) < 2000)
+                    {
+                        z.InvestigateSound(player1.pos);
+                    }
+                }
             }
 
             if (player2.FireWeapon() && !player2.dead)

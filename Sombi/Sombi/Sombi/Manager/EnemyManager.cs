@@ -16,6 +16,8 @@ namespace Sombi
 
         public List<Zombie> zombies = new List<Zombie>();
         public List<BloodStain> bloodPositions = new List<BloodStain>();
+        public List<IntelligentZombie> intZombies = new List<IntelligentZombie>();
+
         public void Update(GameTime gameTime, List<Projectile> bulletList)
         {
 
@@ -27,7 +29,11 @@ namespace Sombi
 
         private void UpdateZombies(GameTime gameTime)
         {
-            foreach (Zombie z in zombies)
+            /*foreach (Zombie z in zombies)
+            {
+                z.Update(gameTime);
+            }*/
+            foreach (IntelligentZombie z in intZombies)
             {
                 z.Update(gameTime);
             }
@@ -69,6 +75,10 @@ namespace Sombi
         public void DrawZombie(SpriteBatch spriteBatch)
         {
             foreach (Zombie z in zombies)
+            {
+                z.Draw(spriteBatch);
+            }
+            foreach (IntelligentZombie z in intZombies)
             {
                 z.Draw(spriteBatch);
             }
@@ -116,12 +126,14 @@ namespace Sombi
             waveTimer += (float)gameTime.ElapsedGameTime.TotalSeconds;
             if (waveTimer >= currentWaveInterval)
             {
-                AddZombiesToRandomLocation(1);
+                //AddZombiesToRandomLocation(1);
                 waveTimer = 0;
                 currentWaveSize--;
             }
         }
-
+        /// <summary>
+        /// Handles collisions and chasing range
+        /// </summary>
         public void CheckPlayerZombieCollisions(List<Player> players)
         {
             for (int i = 0; i < zombies.Count; i++)
@@ -144,6 +156,17 @@ namespace Sombi
 
                 }
             }
+            ////INTELLIGENT ZOMBIE TEST CODE
+            //for (int i = 0; i < intZombies.Count; i++)
+            //{
+            //    for (int k = 0; k < players.Count; k++)
+            //    {
+            //        if (Vector2.Distance(intZombies[i].getCenterPos(), players[k].pos) < 1000)
+            //        {
+            //            intZombies[i].InvestigateSound(players[k].pos);
+            //        }
+            //    }
+            //}
         }
     }
 }

@@ -49,8 +49,8 @@ namespace Sombi
             SoundLibrary.LoadContent(contentManager);
             Grid.CreateGridFactory();
             camera = new Camera((int)GlobalValues.TILE_SIZE);
-            playerManager = new PlayerManager(camera);
             enemyManager = new EnemyManager();
+            playerManager = new PlayerManager(camera, enemyManager.intZombies);
             hudManager = new HUDManager(playerManager.players);
             fpsManager = new FPSManager();
             floatingTextures = new FloatingTextures();
@@ -59,6 +59,9 @@ namespace Sombi
             menuManager = new MenuManager(playerManager.players);
             levelMenuManager = new LevelMenuManager();
             packageManager = new PackageManager(enemyManager);
+
+
+
             this.game = game;
 
             
@@ -98,10 +101,6 @@ namespace Sombi
 
                 case GameState.Playing:
                     {
-                        //if (currentKeyboard.IsKeyDown(Keys.B) && !oldKeyboard.IsKeyDown(Keys.B)) // enbart för test, tas bort sen lolololo
-                        //{                            
-                        //    currentGameState = GameState.LevelUp;
-                        //}
                         PlayingUpdate(gameTime);
                         Upgrade();
                         break;
@@ -202,6 +201,14 @@ namespace Sombi
                 //enemyManager.AddZombiesToRandomLocation(24 * GlobalValues.difficultyLevel * GlobalValues.numberOfPlayers);
                 enemyManager.AddNewWave(0.5f, 36 * GlobalValues.difficultyLevel * GlobalValues.numberOfPlayers);
                 packageManager.AddPackage();
+
+
+                //Pathfinder
+                PathFinder.CreateMap();
+                //PathFinder.CalculateClosestPath();
+                //TEST
+                enemyManager.intZombies.Add(new IntelligentZombie(new Vector2(600, 200)));
+
 
                 marker = new PackageMarker(playerManager.player1.pos, packageManager.package.pos);
 
